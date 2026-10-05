@@ -169,4 +169,7 @@ This repository presents the curved-magnetism research only.
   [DOI](https://doi.org/10.1038/s41598-019-50395-7)
 
 Report sources, PDFs and third-party articles are deliberately excluded.
-No license has been selected; see [repository scope](docs/REPOSITORY_SCOPE.md).
+
+## License
+
+This project is licensed under the BSD 3-Clause License. See [LICENSE](LICENSE) for details.
