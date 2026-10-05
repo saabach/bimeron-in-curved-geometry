@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-05",
+  "environment": {
+    "lean": "4.19.0",
+    "lean_commit": "6caaee842e94",
+    "lake": "5.0.0-6caaee8",
+    "toolchain": "leanprover/lean4:v4.19.0",
+    "python": "3.12.13",
+    "numpy": "2.5.0",
+    "matplotlib": "3.11.0"
+  },
+  "dependencies": {
+    "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "plausible": "77e08eddc486491d7b9e470926b3dbe50319451a",
+    "LeanSearchClient": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+    "importGraph": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+    "proofwidgets": "c4919189477c3221e6a204008998b0d724f49904",
+    "aesop": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+    "Qq": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+    "batteries": "f5d04a9c4973d401c8c92500711518f7c656f034",
+    "Cli": "02dbd02bc00ec4916e99b04b2245b30200e200d0"
+  },
+  "build": {
+    "isolated_public_copy": true,
+    "original_project_build_outputs_used": false,
+    "downloaded_pinned_dependency_cache_used": true,
+    "modules_built_sequentially": true,
+    "final_command": "lake build",
+    "exit_code": 0,
+    "result": "Build completed successfully.",
+    "proof_sources_unchanged": true
+  },
+  "formal_inventory": {
+    "lean_source_files": 15,
+    "proof_modules": 13,
+    "theorems": 145,
+    "lemmas": 0,
+    "calculation_items": 71,
+    "mapped_declarations": 145,
+    "legacy_numbered_equations": 22,
+    "categories": {
+      "A": 15,
+      "B": 21,
+      "C": 16,
+      "D": 19
+    },
+    "declarations_by_module": {
+      "CollectiveEnergy.lean": 13,
+      "Dimensions.lean": 2,
+      "Exchange.lean": 8,
+      "GaussianProfile.lean": 21,
+      "Geometry.lean": 11,
+      "Intrinsic.lean": 4,
+      "Magnetostatics.lean": 12,
+      "Micromagnetics.lean": 13,
+      "Orientation.lean": 9,
+      "Selection.lean": 16,
+      "Stability.lean": 9,
+      "Symmetry.lean": 12,
+      "Topology.lean": 15
+    },
+    "unproved_markers_or_local_axioms": 0,
+    "axiom_dependencies_checked_by_lean": true
+  },
+  "selection": {
+    "files": 35,
+    "lean_files": 15,
+    "tex_files": 0,
+    "pdf_files": 0,
+    "local_links_checked": 97,
+    "privacy_findings": 0,
+    "license_files": 0
+  },
+  "figures": {
+    "count": 4,
+    "original_formula_generated_artwork": true,
+    "third_party_images_included": false,
+    "isolated_reproduction_byte_identical": true,
+    "numerical_checks": "passed",
+    "visual_inspection": "passed",
+    "data_files": 1
+  },
+  "mathematical_changes": [],
+  "sha256": {
+    "figures/README.md": "779a51c18998406d1355cfbb0383693a6608bca303422b3d40fcbe5adf0181e6",
+    "figures/curvature_profiles.csv": "dd7dc3194f48fedbcbb0e9a09253688944ad24666817f351270724cf40cf0623",
+    "figures/curvature_profiles.svg": "c35692b9a730187cb10215c06d7d4e51af81b7c97f26b51e8360563ed2f736a3",
+    "figures/gaussian_surface.svg": "2f6663cd59f719fb2581ad8b4c57b24b1db253e640b6dfcf1b48c3eca644558d",
+    "figures/pair_coordinates.svg": "b152a0f645e6623dc855fd74c794984c91e7bc0d8d0851e51709c77a22af225f",
+    "figures/spin_rotation.png": "a0fe186a5f5ba34c3de3b68aacd7f332e08c9ef1bd6cc420c8624b61a68116fb",
+    "lean/AuditAxioms.lean": "184658ec6d071467ed3ad99c7227e8e7d8fc3d468170b607c42b79812e384db3",
+    "lean/LeanVerification/CollectiveEnergy.lean": "19ced0225fe7f956d578789c0e2b6377f0805639e0712f2b688974d69e8ee746",
+    "lean/LeanVerification/Dimensions.lean": "c1297f317c020c6362a67983841a1befcca223e39cfd09539538f94b37cca09c",
+    "lean/LeanVerification/Exchange.lean": "3b8760a2ee626fa2e7a30bb69f3a26b2b04c0bab4ceb6498681d5a2beffa4562",
+    "lean/LeanVerification/GaussianProfile.lean": "864e728d2a243c321657b6603ac42b685bfd82e1170b3843fa9b578dfe69274a",
+    "lean/LeanVerification/Geometry.lean": "d86d5cb4d98d1b9bad7f0d8d61fcdc925e0326a5399d7fc7526a79b8a2ddb5cb",
+    "lean/LeanVerification/Intrinsic.lean": "a92406e1cf3130b91eb3049e164f4fc555c5f88345e7df61db86218d3502ed26",
+    "lean/LeanVerification/Magnetostatics.lean": "dd5608136c0f4223a1262be4a62d67867ce8a921452d6cd898d1133d0cd8de2f",
+    "lean/LeanVerification/Micromagnetics.lean": "75810c923632b4a0122b093675bd322e2c3766dfeebb0f830ba3617c4a052680",
+    "lean/LeanVerification/Orientation.lean": "727ff0dfd42350b29150f2546ffce7b1ac7628e56379e430c389f06ac685c2d0",
+    "lean/LeanVerification/Selection.lean": "32c4845c3b180f76da527da56b4d12ed635ad4386eac07026e7c578a896345b2",
+    "lean/LeanVerification/Stability.lean": "110d3e4ba31dbe6dcf0de03cb2ea58c380409ec93f09b8dce35a357a1f24f293",
+    "lean/LeanVerification/Symmetry.lean": "b603bc519ea67edd8085242144e42099b92305ee2423541825e9793f0688bbf4",
+    "lean/LeanVerification/Topology.lean": "cc60848dc540384e5b4ee3f8e6b71fa9fee64923e55d39f46ed78ed99a8cf8ab",
+    "lean/LeanVerification.lean": "d3fff8a0fb5d7240d750b7ef0976849778ea6a90969c4ca70caac440f8e93e9c",
+    "lean/lake-manifest.json": "1a4354217c2a0e398fcc0cf12ee8e7320b7ff3b6cf68a90f435a9474e20d9aaa",
+    "lean/lakefile.toml": "d82e1e9d145d63c6340c18b4d26dd30628e6f244463f3cdf3d6787861bfa8254",
+    "lean/lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+    "scripts/audit_formalization.py": "98c78429a5df65471613c49967c0a7e55b7d888f8c40f7811b3be7c4b9134ec4",
+    "scripts/generate_figures.py": "7485008ee690c19ae5571c9d40c44cd7dc1bcabb09c15f2c6978a358521bf5a7"
+  }
+}
