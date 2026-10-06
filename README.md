@@ -66,8 +66,8 @@ and orientation dependence, gradients, stiffnesses and mixed couplings. Forces
 are the negatives of the energy gradients.
 
 <p align="center">
-  <img src="figures/gaussian_surface.svg" width="46%" alt="Gaussian relief with upward normal and the zero Gaussian-curvature ring">
-  <img src="figures/curvature_profiles.svg" width="46%" alt="Mean and deviatoric curvature profiles in the small-slope limit">
+  <img src="figures/gaussian_surface.svg" height="240" alt="Gaussian relief with upward normal and the zero Gaussian-curvature ring">
+  <img src="figures/curvature_profiles.svg" height="240" alt="Mean and deviatoric curvature profiles in the small-slope limit">
 </p>
 
 The surface rendering is schematic; the curvature curves use the **small-slope
