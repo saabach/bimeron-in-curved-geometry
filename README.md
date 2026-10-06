@@ -14,9 +14,9 @@ Geometry changes the competition between exchange, anisotropy, magnetostatics,
 Dzyaloshinskii–Moriya interaction and Zeeman energy. For a thin shell of constant
 normal thickness $t$, with unit magnetization uniform through the thickness,
 
-$$
-E_{\mathrm{ex}}=At\int g^{ab}\partial_a\mathbf m\cdot\partial_b\mathbf m\,dS.
-$$
+```math
+\displaystyle E_{\mathrm{ex}}=At\int g^{ab}\partial_a\mathbf m\cdot\partial_b\mathbf m\,dS.
+```
 
 Here $A$ is the exchange stiffness and $g^{ab}$ the inverse surface metric.
 A moving orthonormal frame introduces the geometric connection into derivatives
@@ -39,10 +39,10 @@ based on the sign of $K_G$.
 
 For an oriented surface, the physical Cartesian magnetization defines
 
-$$
-Q=\frac{1}{4\pi}\int\mathbf m\cdot
+```math
+\displaystyle Q=\frac{1}{4\pi}\int\mathbf m\cdot
 (\partial_u\mathbf m\times\partial_v\mathbf m)\,du\,dv.
-$$
+```
 
 A conventional skyrmion has a perpendicular background. An axial meron covers
 half the spin sphere and has $Q=pq/2$ under equatorial boundary conditions.
@@ -51,7 +51,9 @@ separately. Opposite windings and opposite polarities give a bimeron with
 $Q=\pm1$ in the idealized two-core description. Topological charge alone does not
 establish energetic stability.
 
-![Analytic skyrmion and its globally rotated bimeron-like field](figures/spin_rotation.png)
+<p align="center">
+  <img src="figures/spin_rotation.png" width="560" alt="Analytic skyrmion and its globally rotated bimeron-like field">
+</p>
 
 A proper global spin rotation preserves the charge density and isotropic exchange.
 The illustrated analytic fields are not relaxed states of the full magnetic energy.
@@ -63,8 +65,10 @@ and radial/azimuthal principal directions. The rigid-pair model gives position
 and orientation dependence, gradients, stiffnesses and mixed couplings. Forces
 are the negatives of the energy gradients.
 
-<img src="figures/gaussian_surface.svg" width="390" alt="Gaussian relief with upward normal and the zero Gaussian-curvature ring">
-<img src="figures/curvature_profiles.svg" width="390" alt="Mean and deviatoric curvature profiles in the small-slope limit">
+<p align="center">
+  <img src="figures/gaussian_surface.svg" width="46%" alt="Gaussian relief with upward normal and the zero Gaussian-curvature ring">
+  <img src="figures/curvature_profiles.svg" width="46%" alt="Mean and deviatoric curvature profiles in the small-slope limit">
+</p>
 
 The surface rendering is schematic; the curvature curves use the **small-slope
 limit**, while the formal project also treats exact Gaussian expressions.
